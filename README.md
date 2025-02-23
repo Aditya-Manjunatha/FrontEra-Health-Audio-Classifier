@@ -98,19 +98,7 @@ AudioClassifier/
 │   ├── YamNet_Training.ipynb
 │   ├── Wav2Vec2_Training.ipynb
 │   ├── Data_Preprocessing.ipynb
-│── Datasets/  # Data used for training
-│   ├── Cry/
-│   │   ├── cry_01.wav
-│   │   ├── cry_02_aug.wav
-│   │   └── ...
-│   ├── Scream/
-│   │   ├── scream_01.wav
-│   │   ├── scream_02_aug.wav
-│   │   └── ...
-│   ├── Normal/
-│   │   ├── normal_01.wav
-│   │   ├── normal_02_aug.wav
-│   │   └── ...
+│ 
 ```
 
 
