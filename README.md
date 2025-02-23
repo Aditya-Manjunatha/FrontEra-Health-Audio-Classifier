@@ -124,7 +124,7 @@ python Wav2Vec2_infer.py
 python Ensemble_infer.py
 ```
 
-### **🔹 Step 3: Provide the Audio File Path**  
+### **🔹 Step 2: Provide the Audio File Path**  
 Once you run the script for `YamNet_infer.py` OR `Wav2Vec2_infer.py`, it will prompt you to enter the path of an audio file.
 
 Example :
@@ -144,7 +144,7 @@ Enter your choice (1 or 2): 1
 ```
 Once you select the method, it will ask for the audio file path as seen before
 
-### **🔹 Step 4: Get the Prediction** 
+### **🔹 Step 3: Get the Prediction** 
 Wait for the model to process the audio file and return the predicted label.
 
 Example Output (YAMNet):
@@ -173,6 +173,17 @@ Example Output (Ensemble Model - Average & Weighted Predictions):
 
 ```
 ---
+## **4. Test Set Performance Metrics**  
+
+After training the models, we evaluated them on a **held-out test set**. Below are the key accuracy metrics for each model:  
+
+### **🔹 YAMNet Model Performance**  
+✅ **Test Accuracy:** **97.79%**  
+### **🔹 Wav2Vec2 Model Performance**  
+✅ **Test Accuracy:** **91.97%** 
+
+The other metrics are given in the **REPORT**
+
 ## **5. Diving Deeper - Data**  
 
 Now that the setup is complete, we can explore the **data collection, preprocessing, and augmentation strategies** used in this project.  
