@@ -173,7 +173,7 @@ Example Output (Ensemble Model - Average & Weighted Predictions):
 
 ```
 ---
-## **4. Test Set Performance Metrics**  
+## **Test Set Performance Metrics**  
 
 After training the models, we evaluated them on a **held-out test set**. Below are the key accuracy metrics for each model:  
 
@@ -183,7 +183,7 @@ After training the models, we evaluated them on a **held-out test set**. Below a
 ✅ **Test Accuracy:** **91.97%** 
 
 The other metrics are given in the **REPORT**
-
+---
 ## **5. Diving Deeper - Data**  
 
 Now that the setup is complete, we can explore the **data collection, preprocessing, and augmentation strategies** used in this project.  
