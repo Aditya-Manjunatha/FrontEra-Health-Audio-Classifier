@@ -46,8 +46,8 @@ Run the following commands to create an `AudioClassifier` folder and clone the r
 ```bash
 mkdir AudioClassifier && cd AudioClassifier
 
-# Clone the repository
-git clone https://github.com/Aditya-Manjunatha/FrontEra-Health-Audio-Classifier.git .
+# Clone the repository (Replace with your actual GitHub repo link)
+git clone <YOUR_GITHUB_REPO_LINK> .
 
 # Verify that required files are in place
 ls -l
@@ -335,7 +335,37 @@ After training, the model was evaluated on the **held-out test set (15%)**.
 ✅ **Test accuracy, precision, recall, and F1-score** were computed.  
 ✅ A **detailed performance analysis** with visualizations like **confusion matrices and ROC curves** is provided in the **REPORT**.  
 
----
+## **📌 6. Future Considerations & Final Thoughts**  
+
+### **🔹 Temporal Workflow**
+Was not able to impelment the workflow in the given 2 day Deadline. But will be doing in the future. 
+
+### **🔹 Expanding Model Training with More Data**  
+Given **more datapoints and compute resources**, we could explore **deeper fine-tuning** approaches such as:  
+✅ **Unfreezing more layers** in YAMNet & Wav2Vec2 to allow the model to learn dataset-specific features.  
+✅ **Training the entire model end-to-end**, instead of only using embeddings.  
+✅ **Using more advanced augmentation techniques** to further increase dataset diversity.  
+
+### **🔹 Exploring Additional Ensemble Methods**  
+While we used **averaging and weighted averaging** as our ensemble techniques, future work could include:  
+✅ **Stacking ensemble methods**, where outputs from both models serve as inputs to a meta-classifier.  
+✅ **Self-ensemble techniques**, where multiple versions of the same model trained with different augmentations are used.  
+
+### **🔹 Final Thoughts**  
+This project was an **amazing learning experience**, combining **deep learning, audio signal processing, and model ensembling**.  
+I thoroughly **enjoyed working on this** and experimenting with different **pretrained models, data augmentation, and ensemble strategies**.  
+
+
+
+## **📌 7. Contact & Contributions**  
+
+I hope you liked my work :)
+
+📧 **Email:** maditya@iisc.ac.in  
+📌 **GitHub:** https://github.com/Aditya-Manjunatha  
+
+
+
 
 
 
