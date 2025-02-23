@@ -1,0 +1,15 @@
+torch
+torchaudio
+tensorflow
+tensorflow-hub
+tensorflow-keras
+transformers
+numpy
+pandas
+soundfile
+librosa
+scikit-learn
+matplotlib
+seaborn
+tqdm
+gc
