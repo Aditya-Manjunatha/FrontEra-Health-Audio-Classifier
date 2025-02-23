@@ -46,8 +46,8 @@ Run the following commands to create an `AudioClassifier` folder and clone the r
 ```bash
 mkdir AudioClassifier && cd AudioClassifier
 
-# Clone the repository (Replace with your actual GitHub repo link)
-git clone <YOUR_GITHUB_REPO_LINK> .
+# Clone the repository
+git clone https://github.com/Aditya-Manjunatha/FrontEra-Health-Audio-Classifier.git .
 
 # Verify that required files are in place
 ls -l
